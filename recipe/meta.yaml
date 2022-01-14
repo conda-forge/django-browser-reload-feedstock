@@ -26,13 +26,13 @@ requirements:
 
 test:
   source_files:
-    - tests
+    - Tests
   imports:
     - django_browser_reload
     - django_browser_reload.templatetags
   commands:
     - pip check
-    - pytest -vvv --capture=tee-sys tests
+    - pytest -vvv --capture=tee-sys Tests
   requires:
     - pip
     - pytest
