@@ -1,11 +1,11 @@
-About django-browser-reload
-===========================
+About django-browser-reload-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-browser-reload-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/adamchainz/django-browser-reload
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-browser-reload-feedstock/blob/main/LICENSE.txt)
 
 Summary: Automatically reload your browser in development.
 
