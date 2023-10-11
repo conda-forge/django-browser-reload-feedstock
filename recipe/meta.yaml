@@ -1,5 +1,5 @@
 {% set name = "django-browser-reload" %}
-{% set version = "1.11.0" %}
+{% set version = "1.12.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: fe232478a58e9e5d8b703537651d5a76b017d2208d1da5dfbe013937b5cca065
+  sha256: 2dc98c752b55d22db9c11fbc0274c16160ce4dcd67ef0ef294135ab57d711435
 
 build:
   number: 0
