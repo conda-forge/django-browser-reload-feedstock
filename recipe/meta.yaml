@@ -18,16 +18,16 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
+    - setuptools
   run:
+    - python >=3.9
+    - asgiref >=3.6
     - django >=3.2
-    - python >=3.8
-    - python-tzdata
 
 test:
   imports:
     - django_browser_reload
-    - django_browser_reload.templatetags
   commands:
     - pip check
   requires:
