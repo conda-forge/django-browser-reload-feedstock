@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=3.9
     - asgiref >=3.6
-    - django >=3.2
+    - django >=4.2
 
 test:
   imports:
