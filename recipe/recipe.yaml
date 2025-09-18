@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: django-browser-reload
-  version: 1.19.0
+  version: "1.20.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 034939f770832fde374035e9e4d904c6f990d75598edb777626b5202587315d7
+  sha256: a5e23fc4d0ab67d594edf220fb1e3fd8b35fad4c36b9a03b590bf84f58549735
 
 build:
   number: 0
