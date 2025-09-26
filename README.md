@@ -7,7 +7,7 @@ Home: https://github.com/adamchainz/django-browser-reload
 
 Package license: MIT
 
-Summary: Automatically reload your browser in development.
+Summary: Automatically refresh your browser on changes to Python code, templates, or static files.
 
 Current build status
 ====================
